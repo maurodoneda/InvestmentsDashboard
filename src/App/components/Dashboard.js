@@ -48,11 +48,11 @@ export default function Dashboard({keyNames, investments, openPositions}) {
         <DoughnutChart openPositions = {openPositions}/>
         </Grid>
 
-        <Grid className={classes.evolutionChart} item item xs={3}>
+        <Grid className={classes.evolutionChart} item xs={3}>
         <MonthlyReturnChart/>
         </Grid>
 
-        <Grid className={classes.evolutionChart} item item xs={4}>
+        <Grid className={classes.evolutionChart} item xs={4}>
         <EvolutionChart/>
         </Grid>
 

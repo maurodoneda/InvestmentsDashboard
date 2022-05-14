@@ -53,8 +53,6 @@ export default function SideDrawer({toggle,setToggle}) {
         
         <Divider />
           <List>
-         
-         
               <ListItem button>
                 <ListItemIcon><AccountBalanceIcon /></ListItemIcon>
                 <ListItemText primary={'Open Positions'}  />
